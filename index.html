@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retrieve Grade</title>
+  </head>
+  <body>
+    <h1>Retrieve your grade</h1>
+
+    <form
+      action="https://mumstudents.org/params.php"
+      method="post"
+      target="_blank"
+    >
+      <label for="name">name:</label><br />
+      <input type="text" id="name" name="name" value="" /><br />
+      <label for="StudentID">Id:</label><br />
+      <input
+        type="number"
+        id="StudentID"
+        name="StudentID"
+        value=""
+      /><br /><br />
+      <input type="submit" value="Submit" />
+      Get Grade!
+    </form>
+  </body>
 </html>
